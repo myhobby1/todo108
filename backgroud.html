@@ -1,0 +1,79 @@
+오후 1:46 2023-10-08
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#example1 {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<h1>Multiple Backgrounds</h1>
+<p>The following div element has two background images:</p>
+
+<div id="example1">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+
+</body>
+</html>
+<br><br><br>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#example1 {
+  border: 10px dotted black;
+  padding: 35px;
+  background: yellow;
+}
+
+#example2 {
+  border: 10px dotted black;
+  padding: 35px;
+  background: yellow;
+  background-clip: padding-box;
+}
+
+#example3 {
+  border: 10px dotted black;
+  padding: 35px;
+  background: yellow;
+  background-clip: content-box;
+}
+</style>
+</head>
+<body>
+
+<h1>The background-clip Property</h1>
+
+<p>No background-clip (border-box is default):</p>
+<div id="example1">
+  <h2>Lorem Ipsum Dolor</h2>
+ 
+</div>
+
+<p>background-clip: padding-box:</p>
+<div id="example2">
+  <h2>Lorem Ipsum Dolor</h2>
+ 
+</div>
+
+<p>background-clip: content-box:</p>
+<div id="example3">
+  <h2>Lorem Ipsum Dolor</h2>
+  
+</div>
+
+</body>
+</html>
+
+
+
